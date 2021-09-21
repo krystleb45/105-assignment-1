@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Register a user in the system</h1>
+    <div class="capture-form">
+        <h3>User information</h3>
+        <!-- email,passoword,fname, lname, age, phone number, payment method(seclect), color -->
+        <div class="control">
+            <label>Email</label>
+            <input type="txtEmail" type="email">
+        </div>
+        <div class="control">
+            <label>Passoword</label>
+            <input id="txtPassword" type="password">
+        </div>
+        <div class="control">
+            <label>First Name</label>
+            <input id="txtfirst" type="text">
+        </div>
+        <div class="control">
+            <label>Last Name</label>
+            <input type="txtlast" type="text">
+        </div>
+        <div class="control">
+            <label>Age</label>
+            <input id="txtage" type="number">
+        </div>
+        <div class="control">
+            <label>Address</label>
+            <input id="txtaddress" type="text">
+        </div>
+        <div class="control">
+            <label>Phone Number</label>
+            <input id="txtPhone" type="tel">
+        </div>
+        <div class="control">
+            <label>payment</label>
+            <select id="selPayment">
+                <option value="" disabled selected>- - Select an Option - -</option>
+                <option value="Paypal">Paypal</option>
+                <option value="Cash">Cash</option>
+                <option value="Card">Card</option>
+            </select>
+        </div>
+        <div class="control">
+            <label>Color</label>
+            <input id="txtcolor" type="Color">
+        </div>
+        <div class="control">
+            <button id="btn-save">Register User</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js%22%3E%3C/script%3E"></script>
+    <script src="scripts/register.js"></script>
+</body>
+</html>
